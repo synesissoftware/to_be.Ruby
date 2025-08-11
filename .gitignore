@@ -1,0 +1,52 @@
+
+# directories (by name)
+
+/.bzr/
+/.bundle/
+/.config/
+/.git/
+/.svn/
+
+/InstalledFiles/
+/build/
+/coverage/
+/doc/
+/lib/bundler/man/
+/pkg/
+/rdoc/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+/vendor/bundle/
+
+# directories (by pattern)
+
+# files (by name)
+
+.DS_Store
+.bundle
+.config
+.repl_history
+.ruby-version
+.rvmrc
+.yardoc
+_yardoc
+
+InstalledFiles
+coverage
+pkg
+rdoc
+
+# files (by pattern)
+
+*~
+*.*~
+.dat*
+*.gem
+*.rbc
+*.scc
+*.suo
+*.swp
+*.zip
+
