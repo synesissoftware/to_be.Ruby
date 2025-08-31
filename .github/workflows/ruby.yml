@@ -25,6 +25,8 @@ jobs:
   test:
 
     strategy:
+      fail-fast: false
+
       matrix:
         os:
           - macos-latest
@@ -50,8 +52,6 @@ jobs:
             ruby-version: '2.0'
           - os: windows-latest
             ruby-version: mingw
-          # - os: windows-latest
-          #   ruby-version: ucrt
 
     runs-on: ${{ matrix.os }}
 
@@ -65,5 +65,15 @@ jobs:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
+    - name: Installing dependencies
+      run: bundle install
+ 
+    - name: Installing dependencies explicitly
+      run: gem install xqsr3
+
+    - name: List gems
+      run: gem list
+
     - name: Run tests
-      run: ./run_all_unit_tests.sh
+      run: rake test
+
