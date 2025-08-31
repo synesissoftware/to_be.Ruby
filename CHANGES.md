@@ -5,6 +5,7 @@
 
 * GitHub Actions;
 * badges;
+* .gitattributes;
 
 
 ## 0.0.1 - 11th August 2025
