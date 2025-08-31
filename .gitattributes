@@ -1,0 +1,6 @@
+
+*.rb linguist-language=Ruby
+
+*.html linguist-detectable=false
+*.sh linguist-detectable=false
+*.vimrc linguist-detectable=false

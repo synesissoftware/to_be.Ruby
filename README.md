@@ -1,8 +1,12 @@
 # to_be.Ruby <!-- omit in toc -->
 
-Simple Ruby library determining whether strings indicate truey or falsy values.
-
+![Language](https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![GitHub release](https://img.shields.io/github/v/release/synesissoftware/to_be.Ruby.svg)](https://github.com/synesissoftware/to_be.Ruby/releases/latest)
+[![Last Commit](https://img.shields.io/github/last-commit/synesissoftware/to_be.Ruby)](https://github.com/synesissoftware/to_be.Ruby/commits/master)
 [![Gem Version](https://badge.fury.io/rb/to_be.svg)](https://badge.fury.io/rb/to_be)
+
+Simple Ruby library determining whether strings indicate truey or falsy values.
 
 
 ## Introduction
