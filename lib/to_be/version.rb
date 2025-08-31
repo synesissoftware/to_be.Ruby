@@ -5,7 +5,7 @@
 # Purpose:  Version for ToBe.Ruby library
 #
 # Created:  11th August 2025
-# Updated:  11th August 2025
+# Updated:  1st September 2025
 #
 # Home:     http://github.com/synesissoftware/to_be.Ruby
 #
@@ -51,7 +51,7 @@
 module ToBe
 
   # Current version of the ToBe.Ruby library
-  VERSION           = '0.0.1'
+  VERSION           = '0.0.2'
 
   private
   # @!visibility private
