@@ -6,6 +6,7 @@
 * GitHub Actions;
 * badges;
 * .gitattributes;
+* updated **run_all_unit_tests.sh** (from https://github.com/synesissoftware/misc-dev-scripts);
 
 
 ## 0.0.1 - 11th August 2025
