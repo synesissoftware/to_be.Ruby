@@ -7,19 +7,29 @@
 
 #
 # Created: 1st September 2025
-# Updated: 1st September 2025
+# Updated: 15th August 2026
 #
 
 name: Ruby
 
 on:
   push:
-    branches: [ "master", "dev", "gha" ]
+    branches:
+      - master
+      - dev
+      - boilerplate
+      - idiomatic
+      - rc1
+      - rc2
+      - rc3
   pull_request:
-    branches: [ "master", "dev", "gha" ]
 
 permissions:
   contents: read
+
+defaults:
+  run:
+    shell: bash
 
 jobs:
   test:
@@ -67,7 +77,7 @@ jobs:
 
     - name: Installing dependencies
       run: bundle install
- 
+
     - name: Installing dependencies explicitly
       run: gem install xqsr3
 
