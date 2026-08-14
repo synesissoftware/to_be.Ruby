@@ -1,14 +1,20 @@
+PATH
+  remote: .
+  specs:
+    to_be (0.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    xqsr3 (0.39.4.1)
+    xqsr3 (0.39.5)
 
 PLATFORMS
   arm64-darwin-25
   ruby
 
 DEPENDENCIES
-  xqsr3 (~> 0.39, >= 0.39.4)
+  to_be!
+  xqsr3 (~> 0.38)
 
 BUNDLED WITH
    2.6.9
