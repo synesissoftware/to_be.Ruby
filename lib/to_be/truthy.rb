@@ -1,5 +1,4 @@
-
-
+# frozen_string_literal: true
 require 'to_be/internal/_str2bool'
 
 =begin

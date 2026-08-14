@@ -3,6 +3,7 @@
 
 ## 0.0.2 - 1st September 2025
 
+* added `# frozen_string_literal: true` to all **lib/** sources;
 * GitHub Actions;
 * added **Rakefile**;
 * badges;

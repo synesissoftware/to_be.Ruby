@@ -1,11 +1,11 @@
-
+# frozen_string_literal: true
 # ######################################################################## #
 # File:     to_be/version.rb
 #
 # Purpose:  Version for ToBe.Ruby library
 #
 # Created:  11th August 2025
-# Updated:  1st September 2025
+# Updated:  15th August 2026
 #
 # Home:     http://github.com/synesissoftware/to_be.Ruby
 #
