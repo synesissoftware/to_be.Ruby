@@ -11,6 +11,7 @@
 * CI **Warnings** job now runs on Ruby **3.4**;
 * updated **run_all_unit_tests.sh** (from https://github.com/synesissoftware/misc-dev-scripts) to skip **tput** when **$TERM** is unset or stdout is not a TTY;
 * library source **Home:** URL now uses `https`;
+* **README.md**: Installation before Terminology; Terminology is definitions only (worked examples live in **EXAMPLES.md**); removed duplicated "can be"; **xqsr3** development-dep link is the GitHub project URL;
 
 
 ## 0.0.2 - 1st September 2025
