@@ -1,6 +1,12 @@
 # to_be.Ruby - Changes <!-- omit in toc -->
 
 
+## 0.0.4 - 30th August 2026
+
+* updated GitHub Actions checkout references to **v7**;
+* corrected shared project URL metadata in **to_be.gemspec**;
+
+
 ## 0.0.3 - 20th August 2026
 
 * **EXAMPLES.md** example links are repo-relative (`./examples/…`); added **examples/classify_strings**;
