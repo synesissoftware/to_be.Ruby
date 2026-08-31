@@ -20,10 +20,10 @@ PROJECT_URL = 'https://github.com/synesissoftware/to_be.Ruby'
 Gem::Specification.new do |spec|
 
   spec.name         = 'to_be'
-  spec.summary      = 'Simple Ruby library determining whether strings indicate truey or falsy values.'
+  spec.summary      = 'Simple Ruby library determining whether strings indicate truey or falsey values.'
   spec.version      = ToBe::VERSION
   spec.description  = <<END_DESC
-Simple Ruby library determining whether strings indicate truey or falsy
+Simple Ruby library determining whether strings indicate truey or falsey
 values.
 END_DESC
 

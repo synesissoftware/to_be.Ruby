@@ -1,6 +1,6 @@
 # to_be.Ruby <!-- omit in toc -->
 
-Simple Ruby library determining whether strings indicate truey or falsy values.
+Simple Ruby library determining whether strings indicate truey or falsey values.
 
 ![Language](https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
@@ -32,7 +32,7 @@ Simple Ruby library determining whether strings indicate truey or falsy values.
 
 ## Introduction
 
-**to-be** is a library providing facilities for determining the truthyness of strings. It is implemented in several languages: **to_be.Ruby** is the **Ruby** implementation.
+**to-be** is a library providing facilities for determining the truthiness of strings. It is implemented in several languages: **to_be.Ruby** is the **Ruby** implementation.
 
 It has **no dependencies** on any other non-standard library.
 
@@ -64,7 +64,7 @@ require 'to_be'
 
 ## Terminology
 
-The term "*truthy*" is an unhelpfully overloaded term in the programming world, insofar as it is used to refer to the notion of "truthyness" - whether something can be _deemed to be_ interpretable as truth - and also the true side of that interpretation. In this library, the former interpretation is used, leaving us with the following terms:
+The term "*truthy*" is an unhelpfully overloaded term in the programming world, insofar as it is used to refer to the notion of "truthiness" - whether something can be _deemed to be_ interpretable as truth - and also the true side of that interpretation. In this library, the former interpretation is used, leaving us with the following terms:
 
 * "*truthy*" - whether something can be _deemed to be_ interpretable as having truth;
 * "*falsey*" - whether an object can be _deemed to be_ interpretable as being false;
